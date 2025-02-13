@@ -1,5 +1,5 @@
-# Academic Project Page Template
-This site use an academic paper project page template.
+# DFM
+This site use following academic paper project page template.
 https://github.com/eliahuhorwitz/Academic-project-page-template
 
 ## Website License
