@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ICRA2025-DFM</title>
+  <link rel="icon" type="image/x-icon" href="static/images/aibo_icon.jpeg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">DFM: Deep Fourier Mimic for <br> Expressive Dance Motion Learning</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/ryo-watanabe-3196989a/" target="_blank">Ryo Watanabe</a><sup>1</sup><sup>,</sup><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://breadli428.github.io/" target="_blank"> Chenhao Li</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html" target="_blank">Marco Hutter</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>ETH Zurich,<sup>2</sup>Sony Group Corporation<br>ICRA 2025</span>
+              <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2402.13820" target="_blank" class="external-link button is-normal is-rounded is-dark"> <!-- TODO -->
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Video -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=bMaSCyZ1A50&list=PLhqs0Oka9VREJXexpxtmu28NCo5KPyWV3&index=1" target="_blank" class="external-link button is-normal is-rounded is-dark"> <!-- TODO -->
+                    <span class="icon">
+                      <i class="fa fa-video"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+
+                <!-- Poster -->
+                <!-- <span class="link-block">
+                  <a href="javascript:void(0);" class="external-link button is-normal is-rounded is-dark" onclick="return false;"> 
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Poster</span>
+                  </a>
+                </span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/overview_dance.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="subtitle has-text-centered">
+          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        </h2> -->
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              As entertainment robots gain popularity, the demand for natural and expressive motion, particularly in dancing, continues to rise.
+              Traditionally, dancing motions have been manually designed by artists, a process that is both labor-intensive and restricted to simple motion playback, lacking the flexibility to incorporate additional tasks such as locomotion or gaze control during dancing.
+              To overcome these challenges, we introduce Deep Fourier Mimic (DFM), a novel method that combines advanced motion representation with Reinforcement Learning (RL) to enable smooth transitions between motions while concurrently managing auxiliary tasks during dance sequences.
+              While previous frequency domain based motion representations have successfully encoded dance motions into latent parameters, they often impose overly rigid periodic assumptions at the local level, resulting in reduced tracking accuracy and motion expressiveness, which is a critical aspect for entertainment robots.
+              By relaxing these locally periodic constraints, our approach not only enhances tracking precision but also facilitates smooth transitions between different motions.
+              Furthermore, the learned RL policy that supports simultaneous base activities, such as locomotion and gaze control, allows entertainment robots to engage more dynamically and interactively with users rather than merely replaying static, pre-designed dance routines.
+            </p>
+          </div>
+          <img src="static/images/overview.jpg" alt="MY ALT TEXT" style="width: 800px; height: auto; display: block; margin: 0 auto;" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container" style="width: 800px; margin: 0 auto;">
+        <div class="item">
+          <!-- Your image here -->
+          <h2 class="title is-3">
+            Method
+          </h2>
+          <p style="text-align: justify;">
+            The expressive dance motion learning system is composed of four key components: motion design, motion representation, motion learning, and hardware inference. In the motion design phase, artists create motion references using specialized design software. The representation of these diverse motions is then learned using a Periodic Autoencoder (PAE). Reinforcement learning (RL) is employed to enable the robot to perform auxiliary tasks, such as walking and head orientation control, while accurately tracking the designed dance references. During inference, the learned policy is deployed on the actual hardware, allowing for real-time execution of dance motions and dynamic and interactive motions by tracking the auxiliary task commands.
+          </p>
+          <img src="static/images/method.jpg" alt="MY ALT TEXT" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container" style="width: 800px; margin: 0 auto;">
+        <div class="item">
+          <!-- Your video here -->
+          <h2 class="title is-3">
+            Tracking Accuracy
+          </h2>
+          <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/tracking_accuracy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align: justify;">
+            The tracking accuracy of DFM is demonstrated by conditioning the reference dance to a rear leg lifting motion. We compare our method with Fourier Latent Dynamics as a baseline. Due to strong periodic assumptions in both motion representation and reinforcement learning, FLD overly smooths out reference motions. DFM, which relaxes the strong periodic assumption, results in moving up the rear leg by tracking the reference motion details more accurately. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container" style="width: 800px; margin: 0 auto;">
+        <div class="item">
+          <!-- Your video here -->
+          <h2 class="title is-3">
+            Natural Transition
+          </h2>
+          <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/transiet_natural.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align: justify;">
+            The transitions between different types of dance motions are shown. DeepMimic yields high tracking performance on single trajectories but lacks the capabilities to deal with diverse motions. The resulting hard switches lead to jerky changes of motion types. In contrast, the motion representation employed by DFM achieves smooth transitions.  
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="hero-body">
+      <div class="container" style="width: 800px; margin: 0 auto;">
+        <div class="item">
+          <!-- Your video here -->
+          <h2 class="title is-3">
+            Frequency Interpolation
+          </h2>
+          <video controls autoplay muted loop style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/frequency_modulation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p style="text-align: justify;">
+            The modulation from higher to slower frequency by conditioning the mainly head-moving dance motion is shown. Even though the training dataset consists of discrete frequency types, the motion representation allows for continuous frequency interpolation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre> <!-- TODO -->
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
