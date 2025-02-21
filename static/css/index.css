@@ -145,7 +145,7 @@ body {
 
 @media (min-width: 769px) {
   .center-content {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
   }
 }
